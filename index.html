@@ -1,200 +1,237 @@
-
 <html lang="en">
+
 <head>
-  
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
- 
-  <style>
-    
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-    }
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  
 
-    nav.navbar.navbar-inverse {
-        display: flex;
-    
-       font-family: 'Open Sans', sans-serif;
-     text-decoration-color: white;
-        background:  #EF3E42;
-        margin-bottom: 0%;
-    }
 
-.navbar-brand {
-        height: 125%;
-        align-content: center;
-        justify-content: center;
 
-        margin-left: auto;
-        margin-right: auto;
-    } 
-    div.container {
 
-        margin-left: auto;
-        margin-right: auto;
-    }
-ul.nav.navbar-nav {
-    
-    justify-content: right;
-}
-    
-     .item.active {
-         
-  display: flex;
-  flex-wrap: wrap;
-  
-  height: 72%;
-  width: 100%;
-  align-content: center;
-  margin-top: 0%;
-        
-    
-    } 
 
-    div.carousel-caption{
 
-background: black;
-opacity: 0.3;
-        margin-left: auto;
-        margin-right: auto;
-     
-padding: 0%;
-    
-    }
+    <!-- Navbar object -->
+    <nav class="navbar navbar-expand-lg  " style="background-color: #EF3E42;">
+        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
+            aria-label="Toggle navigation"><span class="dark-blue-text"><i
+                    class="fas fa-bars fa-1x"></i></span></button>
+        <img class="navbar-brand" src="Adopt-me-assets/img/logo.png">
 
-    /* Hide the carousel text when the screen is less than 600 pixels wide */
-    @media (max-width: 600px) {
-      .carousel-caption {
-        display: none; 
-      }
-    }
-  </style>
+
+        <ul class="navbar-nav mr-auto  ">
+            <li class="nav-item active">
+                <a class="nav-link" style="text-decoration-color:  white!important;" href="#">Adoptme.Org <span
+                        class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ml-auto  ">
+
+                <ul class="form-inline my-2 my-lg-0 my-md-0 ">
+                    <div class="nav-item">
+                        <a class="nav-link" href="#">WHO we are</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" href="#">WHAT we do</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" href="#">EVENTS adoption</a>
+                    </div>
+                </ul>
+        </div>
+        </ul>
+
+    </nav>
+<!-- main image and bar -->
+    <div class="col-sm-14">
+        <div class="card bg-inverse">
+
+            <img class="card-img img-fluid" src="Adopt-me-assets/img/dogs.jpg" alt="Card image cap">
+            <div class="card-img-overlay d-flex flex-column justify-content-end container-fluid">
+
+                <h3 class="card-title">This is your new family!
+                    <button class="btn btn-light">Adopt Now!</button>
+
+                </h3>
+            </div>
+        </div>
+    </div>
 </head>
 
+<!-- Image card and video card -->
+<div class="container py-1">
+    <div class="card-group"></div>
 
-<nav class="navbar navbar-inverse">
-    <img class="navbar-brand" src="Adopt-me-assets/img/logo.png"></img>  
-   
-  <div class="container">
-       <li >Adoptme.Org</li>
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>       
-              
-      </button>
-      
- 
-    <div class="collapse navbar-collapse" id="myNavbar">
-       
-      <ul class="nav navbar-nav">
-        
-        <li><a href="#">WHAT we do</a></li>
-        <li><a href="#">WHO we are</a></li>
-        <li><a href="#">WHERE we are</a></li>
-      </ul>
+    <div class="col-sm-6 col-md-4 col-lg-4 float-left" style="width: 18rem;">
+        <div class="card h-100">
+            <div class="card-header" style="background-color: #332982" style="color: white;">
+                VOLUNTEERS
+            </div>
+            <div class="col-xs-4">
+                <img class="card-img-top" src="Adopt-me-assets/img/girl.png" alt="Card image cap">
+                <div class="card-body">
+
+                    <p class="card-text">Amazing people, doing the difference every single day. Join us now and be part
+                        of a community that is changing the world. </p>
+                    <button class="btn btn-dark"> JOIN US</button>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-  </div>
-</nav>
 
-<!-- <div class="container">
-<div class="row">
-  <div class="container-fluid">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      Indicators -->
-      <!-- <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-      </ol>  -->
 
-      <!-- Wrapper for slides -->
-      <div class="hero-image">
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="Adopt-me-assets/img/dogs.jpg" alt="Image">
-          </div>
-          <div class="carousel-caption">
-            <h3>This is your new family!</h3>
-            <button class="btn btn-primary"> Adopt now</button>
-          </div>      
+    <div class="col-sm-6 col-md-6 col-lg-6 float-right" style="margin-left: 10%">
+        <div class="card h-100">
+
+            <div class="card-header" style="background-color: #EF3E42" style="color: white;">
+                TESTIMONIAL OF THE MONTH
+            </div>
+
+
+
+            <div class="col-xs-4">
+                <div class="card-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7Zxm2wcgeYI"
+                            allowfullscreen></iframe> </div>
+                </div>
+
+            </div>
         </div>
 
-
-<div class="container text-center">    
-  <h3>What We Do</h3>
-  <br>
-  <div class="row">
-    <div class="col-sm-3">
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Current Project</p>
     </div>
-    <div class="col-sm-3"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Project 2</p>    
-    </div>
-    <div class="col-sm-3">
-      <div class="well">
-       <p>Some text..</p>
-      </div>
-      <div class="well">
-       <p>Some text..</p>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="well">
-       <p>Some text..</p>
-      </div>
-      <div class="well">
-       <p>Some text..</p>
-      </div>
-    </div>  
-  </div>
-  <hr>
 </div>
 
-<div class="container text-center">    
-  <h3>Our Partners</h3>
-  <br>
-  <div class="row">
-    <div class="col-sm-2">
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Partner 1</p>
-    </div>
-    <div class="col-sm-2"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Partner 2</p>    
-    </div>
-    <div class="col-sm-2"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Partner 3</p>
-    </div>
-    <div class="col-sm-2"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Partner 4</p>
-    </div> 
-    <div class="col-sm-2"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Partner 5</p>
-    </div>     
-    <div class="col-sm-2"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Partner 6</p>
-    </div> 
-  </div>
-</div><br>
+<!-- nav bar and card menu - also dog image -->
+<div class="container py-1" style="margin-top: 15px;">
+    <div class="row">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Programs</a>
+            </li>
+            <li class="nav-item"></li>
+            <a class="nav-link active" href="#" style="color: black">Associated Companies</a>
 
-<footer class="container-fluid text-center">
-  <p>Footer Text</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container py-1 float-left">
+
+        <img div class="float-right" style="width: 25%" style="height: 50%"
+            src="Adopt-me-assets/img/dog-for-adoption.png">
+        <div class="card-group">
+            <div class="row">
+                <div class="col-sm">
+
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-sm-5">
+                                <img class="card-img" src="Adopt-me-assets/img/friend-in-trouble.png" alt="Adoption">
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="card-body">
+                                    <h5 class="card-title">Behavior Program</h5>
+                                    <p class="card-text">Evaluation of each dog using specialists who determine the best
+                                        training that
+                                        will help your friend be a better family member</p>
+                                    <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-sm-5">
+                                <img class="card-img" src="Adopt-me-assets/img/dogs.jpg" alt="Family">
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="card-body">
+                                    <h5 class="card-title">My Next Family</h5>
+                                    <p class="card-text">Are you looking for a new family member? Then, this program is
+                                        for
+                                        you. Don't
+                                        buy, adopt here, and let's give a home to this amazing friends</p>
+                                    <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</li>
+
+
+
+
+<!-- footer -->
+<footer class="page-footer">
+
+    <div class="container-fluid text-center text-md-left">
+
+
+        <div class="row">
+
+
+            <div class="col-md-4 mt-md-0 mt-3">
+
+
+                <img class="navbar-brand" src="Adopt-me-assets/img/logo.png">
+                <ul class="navbar-nav mr-auto  ">
+                    <li class="nav-item active">
+                        <a class="nav-link" style="text-decoration-color:  white!important;" href="#">Adoptme.Org <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <p style="text-decoration-color:  white!important;">Main St #1245</p>
+                <p style="text-decoration-color:  white!important;">Amazing City, 45677</p>
+
+            </div>
+
+
+
+
+
+            <ul class="form-inline my-2 my-lg-0 my-md-0 ">
+                <div class="nav-item">
+                    <a class="nav-link" href="#">WHO we are</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link" href="#">WHAT we do</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link" href="#">EVENTS adoption</a>
+                </div>
+            </ul>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
 </footer>
 
 

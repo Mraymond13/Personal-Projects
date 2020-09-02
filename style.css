@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@400;700&display=swap");
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+footer.page-footer {
+  background: #332982;
+  padding: 25px;
+}
+
+button.btn.btn-dark {
+  border: 2px solid #332982;
+  background: white;
+  color: #332982;
+  border-radius: 0;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+button.btn.btn-light {
+  border-radius: 0;
+  border: 2px solid;
+  font-family: "Open Sans", sans-serif;
+}
+
+p.card-text {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+div.card-header {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+h5.card-title {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+  color: #EF3E42;
+}
+
+a.nav-link.active {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+}
+
+div.col-sm-7 {
+  border: 0 !important;
+}
+
+a.btn.btn-primary {
+  background: white;
+  color: #EF3E42;
+  border: 2px solid #EF3E42;
+  border-radius: 0;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.pb-1 .py-1 {
+  padding-top: 2rem !important;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav-item.active {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 60px;
+}
+
+.col-md-4.mt-md-0.mt-3 > p {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: white;
+}
+
+p {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.nav-item {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a.nav-link {
+  color: white;
+}
+
+div.card-img-overlay.d-flex.flex-column.justify-content-end.container-fluid {
+  padding: 0 !important;
+}
+
+.card-img.img-fluid {
+  height: 72%;
+}
+
+.card.bg-inverse {
+  padding: 0;
+  padding-left: 0px;
+  padding-right: 0px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 0%;
+  position: relative;
+  max-width: 100%;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+img.float-right {
+  top: 0;
+  position: relative;
+}
+
+h3.card-title {
+  font-family: "Open Sans Condensed", sans-serif;
+  background: black;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  margin-bottom: 0%;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.card-img-overlay {
+  margin: 0;
+  padding: 0;
+}
+
+.container.text-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+a {
+  color: white;
+}
+
+.card-img-overlay {
+  padding: 0%;
+}
+
+img.card-img.img-fluid {
+  height: 40%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+div.card-header {
+  color: white;
+}
+
+.btn.btn-light {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: block;
+}
+
+.col-sm-6.col-md-6.col-lg-6.float-right {
+  padding: 0;
+  height: 100%;
+  padding-top: 2rem !important;
+}
+
+.col-sm-6.col-md-4.col-lg-4.float-left {
+  padding: 0;
+  -webkit-box-shadow: 0 0 17px 0px lightgray;
+          box-shadow: 0 0 17px 0px lightgray;
+  height: 100%;
+  margin-top: 2rem;
+}
+
+.col-xs-4 > .card-body {
+  padding: 0;
+}
+
+@media (max-width: 640px) {
+  .container.py-1.float-left > .float-right {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
